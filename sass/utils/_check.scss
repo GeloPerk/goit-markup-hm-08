@@ -1,0 +1,46 @@
+.check__lable {
+    position: relative;
+}
+.input__check {
+    opacity: 0;
+    position: relative;
+}
+
+.check-icon-off {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.check-icon-on {
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+}
+
+.check__text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #757575
+}
+
+.check__link {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    text-decoration-line: underline;
+    color: #2196F3;
+    text-decoration: underline;
+}
+
+.input__check:checked+.check__wrap .check-icon-on {
+    opacity: 1;
+}
+
+.input__check:checked+.check__wrap .check-icon-off {
+    opacity: 0;
+}

@@ -1,0 +1,46 @@
+.about__title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.about__item:not(:last-child) {
+    margin-right: 30px;
+}
+
+.about__list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about__link {}
+
+.about__img {
+    position: relative;
+}
+
+.about__overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+    background: rgba(47, 48, 58, 0.8);
+}
+
+.about__overlay-text {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #ffffff;
+}
