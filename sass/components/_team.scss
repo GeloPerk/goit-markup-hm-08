@@ -33,12 +33,18 @@
     align-items: center;
     justify-content: center;
     margin: 0;
+    @media screen and(min-width:$tabl) and(max-width:$pre-desc) 
+    {flex-wrap: wrap;
+    gap: 30px;}
 }
 
 .team__items:not(:last-child) {
     margin-right: 30px;
     left: 215px;
     top: 1632px;
+    @media screen and(min-width:$tabl) and(max-width:$pre-desc) {
+            margin-right: 0px;
+        }
 }
 
 .team__items {
@@ -50,6 +56,9 @@
     justify-content: center;
     text-align: center;
     background-color: #fff;
+    @media screen and(min-width:$tabl) and(max-width:$pre-desc) {
+            flex-basis: calc((100% - 30px * 2) / 2);
+        }
 }
 
 .team__icon__massage {

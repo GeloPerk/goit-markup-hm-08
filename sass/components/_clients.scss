@@ -9,14 +9,25 @@
     color: #212121;
 }
 
+
 .clients__list {
     display: flex;
     justify-content: center;
     margin: 0 0 94px 0;
+@media screen and(min-width:$tabl) and(max-width:$pre-desc) {
+    flex-wrap: wrap;
+    gap: 30px;}
 }
-
+.clients__item{
+    @media screen and(min-width:$tabl) and(max-width:$pre-desc) {
+        flex-basis: calc((100% - 30px * 2) / 3);
+    }
+}
 .clients__item:not(:last-child) {
     margin-right: 30px;
+    @media screen and(min-width:$tabl) and(max-width:$pre-desc) {
+            margin-right: 0;
+        }
 }
 
 .clients__link {

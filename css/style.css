@@ -41,6 +41,12 @@ body {
   padding: 0 0 94px 0;
 }
 
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .header {
+    border: 1px solid #ECECEC;
+  }
+}
+
 .header__logo {
   font-weight: 700;
   font-size: 26px;
@@ -74,6 +80,11 @@ body {
   margin-top: 0;
   margin-bottom: 0;
 }
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .header__contact {
+    margin-left: 0;
+  }
+}
 
 .header__list {
   list-style: none;
@@ -88,6 +99,11 @@ body {
 
 .header__nav {
   margin-left: 93px;
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .header__nav {
+    margin-left: 0;
+  }
 }
 
 .header__link {
@@ -147,6 +163,12 @@ body {
   justify-content: space-between;
   align-items: center;
 }
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .header__contact {
+    display: inline-block;
+    padding: 21px 15px 21px 15px;
+  }
+}
 
 .header__contact-item {
   text-decoration: none;
@@ -161,6 +183,12 @@ body {
   padding: 32px 0;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 0.1);
 }
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .header__contact-item {
+    padding: 0;
+    justify-content: left;
+  }
+}
 
 .header__contact-list {
   margin-right: 30px;
@@ -173,6 +201,11 @@ body {
 
 .header__contact-item {
   margin-right: 30px;
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .header__contact-item {
+    margin-right: 0;
+  }
 }
 
 .header__icon {
@@ -193,6 +226,12 @@ body {
   text-align: center;
   justify-content: center;
 }
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .mains {
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../img/Headerimg.tabl.jpg");
+    margin-bottom: 60px;
+  }
+}
 
 .mains__title {
   max-width: 696px;
@@ -205,6 +244,14 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   margin: 0 auto 30px auto;
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .mains__title {
+    font-size: 26px;
+    line-height: 42px;
+    width: 360px;
+    height: 84px;
+  }
 }
 
 .mains__btn {
@@ -238,16 +285,34 @@ body {
 .info__list {
   display: flex;
   justify-content: center;
-  padding: 120px 0;
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .info__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    text-decoration: none;
+  }
 }
 
 .info__item {
   width: 270px;
   height: 74px;
 }
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .info__item {
+    flex-basis: calc((100% - 60px) / 2);
+    margin-bottom: 160px;
+  }
+}
 
 .info__item:not(:last-child) {
   margin-right: 30px;
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .info__item:not(:last-child) {
+    margin-right: 0;
+  }
 }
 
 .info__name {
@@ -356,11 +421,22 @@ body {
   justify-content: center;
   margin: 0;
 }
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .team__list {
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+}
 
 .team__items:not(:last-child) {
   margin-right: 30px;
   left: 215px;
   top: 1632px;
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .team__items:not(:last-child) {
+    margin-right: 0px;
+  }
 }
 
 .team__items {
@@ -371,6 +447,11 @@ body {
   justify-content: center;
   text-align: center;
   background-color: #fff;
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .team__items {
+    flex-basis: calc((100% - 60px) / 2);
+  }
 }
 
 .team__icon__massage {
@@ -417,9 +498,26 @@ body {
   justify-content: center;
   margin: 0 0 94px 0;
 }
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .clients__list {
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .clients__item {
+    flex-basis: calc((100% - 60px) / 3);
+  }
+}
 
 .clients__item:not(:last-child) {
   margin-right: 30px;
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .clients__item:not(:last-child) {
+    margin-right: 0;
+  }
 }
 
 .clients__link {

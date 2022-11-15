@@ -1,0 +1,25 @@
+$mob: 480px;
+$pre-table: 767px;
+$tabl: 768px;
+$pre-desc: 1199px;
+$desc: 1200px;
+
+@media screen and(max-width: $desc) {
+    
+}
+
+@media screen and( min-width: $tabl) {
+    
+}
+
+@media screen and(min-width: $tabl) and(max-width: $pre-desc) {
+    
+}
+
+@media screen and(max-width: $desc) {
+    
+}
+
+@media screen and(min-width:$tabl) and(max-width:$pre-desc) {
+    
+}
