@@ -6,27 +6,16 @@
 .info__list {
     display: flex;
     justify-content: center;
-    @media screen and(min-width:$tabl) and(max-width:$pre-desc) {
-        display: flex;
-            flex-wrap: wrap;
-            gap: 30px;
-            text-decoration: none;
-            
-    }
+    padding: 120px 0;
 }
 
 .info__item {
     width: 270px;
     height: 74px;
-    @media screen and(min-width:$tabl) and(max-width:$pre-desc) {
-        flex-basis: calc((100% - 30px * 2) / 2);
-        margin-bottom: 160px;
-    }
 }
 
 .info__item:not(:last-child) {
     margin-right: 30px;
-    @media screen and(min-width:$tabl) and(max-width:$pre-desc) {margin-right: 0;}
 }
 
 .info__name {

@@ -1,7 +1,3 @@
-.header{
-    @media screen and(min-width:$tabl) and(max-width:$pre-desc) 
-    {border: 1px solid #ECECEC;}
-}
 .header__logo {
     font-weight: 700;
     font-size: 26px;
@@ -34,9 +30,6 @@
     margin-left: auto;
     margin-top: 0;
     margin-bottom: 0;
-    @media screen and(min-width:$tabl) and(max-width:$pre-desc) {
-        margin-left: 0;
-    }
 }
 
 .header__list {
@@ -52,9 +45,6 @@
 
 .header__nav {
     margin-left: 93px;
-    @media screen and(min-width:$tabl) and(max-width:$pre-desc) {
-        margin-left: 0;
-    }
 }
 
 .header__link {
@@ -113,11 +103,6 @@
     list-style: none;
     justify-content: space-between;
     align-items: center;
-    @media screen and(min-width:$tabl) and(max-width:$pre-desc) {
-        display: inline-block;
-        padding: 21px 15px 21px 15px;
-    }
-   
 }
 
 .header__contact-item {
@@ -132,10 +117,6 @@
     align-items: center;
     padding: 32px 0;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 0.1);
-    @media screen and(min-width:$tabl) and(max-width:$pre-desc) {
-        padding: 0;
-        justify-content: left;
-    }
 }
 
 .header__contact-list {
@@ -149,9 +130,6 @@
 
 .header__contact-item {
     margin-right: 30px;
-    @media screen and(min-width:$tabl) and(max-width:$pre-desc) {
-        margin-right: 0;
-    }
 }
 
 .header__icon {

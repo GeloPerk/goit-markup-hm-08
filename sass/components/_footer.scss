@@ -40,12 +40,11 @@
     color: rgba(255, 255, 255, 0.6);
 }
 
-.footer__link__list {
+.footer__link-list {
     display: flex;
     align-items: center;
 }
-
-.footer__link__svg {
+.footer__link-svg {
     fill: currentColor;
     color: #fff;
     text-decoration: none;
@@ -56,12 +55,13 @@
     justify-content: center;
     align-items: center;
     background-color: rgba(255, 255, 255, 0.1);
-    margin-left: 10px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 0.1);
 }
+.footer__link-svg:last-child{margin-right: 10px;}
 
-.footer__link__svg:hover,
-.footer__link__svg:focus {
+
+.footer__link-svg:hover,
+.footer__link-svg:focus {
     background-color: #2196f3;
 }
 
@@ -77,7 +77,7 @@
     margin-right: 70px;
 }
 
-.footer__link__svg:not(:last-child) {
+.footer__link-svg:not(:last-child) {
     margin-left: 10px;
 }
 

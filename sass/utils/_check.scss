@@ -1,5 +1,7 @@
 .check__lable {
     position: relative;
+    display: flex;
+    justify-content: center;
 }
 .input__check {
     opacity: 0;
@@ -8,14 +10,14 @@
 
 .check-icon-off {
     position: absolute;
-    left: 0;
-    top: 0;
+    left: 8.38px;
+    top: 4px;
 }
 
 .check-icon-on {
     position: absolute;
-    left: 0;
-    top: 0;
+    left: 8.38px;
+    top: 4px;
     opacity: 0;
 }
 
@@ -24,7 +26,8 @@
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
-    color: #757575
+    color: #757575;
+    
 }
 
 .check__link {
